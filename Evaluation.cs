@@ -16,7 +16,7 @@ namespace Cla_ss
                 Console.WriteLine("Grade = " + grade);//แสดงผลออกทางหน้าจอ
             }
         }
-        public string CalculetGrade(Employee employee)
+        private string CalculetGrade(Employee employee)
         //สร้าง method ชื่อ CalculetGrade ค่าที่รับเข้ามาใน parameter คือค่าจาก Object ชื่อ employee
         {
             if (employee.Score > 80) return "A";
